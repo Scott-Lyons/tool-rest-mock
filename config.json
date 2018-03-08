@@ -1,0 +1,16 @@
+{
+    "solutionInfo": {
+        "product": "tool-rest-mock",
+        "description": "Mocked rest api for local testing",
+        "serviceName": "tool-rest-mock"
+    },
+    "web": {
+        "ports": {
+            "web": 8585
+        },
+        "headers": ["x-session-id"]
+    },
+    "logging": {
+        "level": "INFO"
+    }
+}
