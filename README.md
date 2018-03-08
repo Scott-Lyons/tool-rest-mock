@@ -44,3 +44,10 @@ Important things to note about `config.json`:
 
 `node .`
 
+After the service has started you can hit it with the following requests:
+
+```
+GET http://localhost:8585/query/test/ping
+GET http://localhost:8585/query/test/foo/[fooId]
+POST http://localhost:8585/command/test/ping
+```
